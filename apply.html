@@ -22,11 +22,59 @@
     </header>
     <hr>
 <main>
+<section>
+    <h3>Apply for Internship</h3>
+    <p>Please fill out the form below to apply for an internship:</p>
+    <form>
+        <h4>Personal Info</h4>
+        <label for="name">Your Name:
+<input type="text" name="name" placeholder="Your Name" id="name" required></label>
+<label for="email">Your Email:
+<input type="email" name="email" placeholder="Your Email" id="email" required></label>
+<label for="num">Your Phone Number:
+<input type="tel" name="phone" placeholder="Your Phone Number" id="num" required></label>
 
+<h4>Academic Info</h4>
+        <label for="uni">University:
+<input type="text" name="university" id="uni" placeholder="Your University" required></label>
+<label for="deg">Degree:
+<input type="text" name="degree" placeholder="Your Degree" id="deg" required></label>
+<label for="sem">Semester:
+<input type="number" name="semester" id="sem" placeholder="Your Semester" required></label>
 
-    
-    </main>
+<h4>Skills</h4>
+<label for="c">
+<input type="checkbox" id="c" name="skills" value="C++" > C++
+</label>
+<label for="python"><input type="checkbox" name="skills" id="python" value="Python" > Python</label>
+<label for="javascript"><input type="checkbox" name="skills" id="javascript" value="JavaScript" > JavaScript</label>
+<label for="htmlcss"><input type="checkbox" name="skills" id="htmlcss" value="HTML/CSS" > HTML/CSS</label>
+<br>
+<h4>Internship Preference</h4>
+<p>Select from the dropdown</p>
+<select name="internship">
+    <option>Frontend Developer Intern</option>
+    <option>AI/ML engineer intern</option>
+    <option>UI/UX Design Intern</option>
+    <option>Backend Developer Intern</option>
+    <option>Python devloper</option>
+    <option>Data Analyst Intern</option>
+    <option>ALkhidmat social internship</option>
+</select>
+    <br>
+<h4>Upload resume</h4>
+<input type="file" name="resume">
+    <br>
+    <br>
 
+    <textarea name="about" placeholder="Tell us about yourself"></textarea>
+<br>
+<br>
+<input type="submit" >
+
+        </form>
+</section>
+</main>
 
     <hr>
 <footer>
