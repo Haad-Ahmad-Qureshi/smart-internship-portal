@@ -66,6 +66,9 @@ This project was created to:
 
 ---
 
+## Deployed link for this website
+Link:https://haad-ahmad-qureshi.github.io/smart-internship-portal/
+
 ## 👨‍💻 Author
 
 **Haad Ahmad Qureshi**
