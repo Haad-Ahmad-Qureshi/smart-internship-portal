@@ -569,4 +569,162 @@ caption {
   }
 }
 
+/* -------=================== Apply page ====================== */
 
+/* APPLY PAGE SECTION */
+#apply-page{
+  padding:40px 20px;
+  background-color:#b2d1f0;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+}
+
+/* HEADER BOX */
+#apply-f{
+  padding:20px;
+  margin-bottom:30px;
+  text-align:center;
+
+  background: linear-gradient(to right, #0F172A, #1E3A8A);
+  color:#CBD5F5;
+
+  border-radius:12px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.2);
+
+  transition: all 0.4s ease;
+}
+
+/* HOVER EFFECT */
+#apply-f:hover{
+  transform: scale(1.03);
+  box-shadow:0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* FORM CARD */
+form{
+  width:600px;
+  max-width:90%;
+
+  background-color:white;
+  padding:25px;
+
+  border-radius:12px;
+  box-shadow:0 6px 15px rgba(0,0,0,0.15);
+
+  transition: all 0.3s ease;
+}
+
+/* FORM HOVER */
+form:hover{
+  transform: translateY(-5px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* SECTION HEADINGS */
+form h4{
+  margin:20px 0 10px;
+  color:#0F172A;
+  border-bottom:2px solid #38BDF8;
+  padding-bottom:5px;
+}
+
+/* LABELS */
+label{
+  display:block;
+  margin-bottom:12px;
+  color:#1E293B;
+  font-weight:500;
+}
+
+/* INPUTS */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea{
+  width:100%;
+  padding:10px;
+  margin-top:5px;
+
+  border:1px solid #cbd5e1;
+  border-radius:6px;
+
+  transition: all 0.3s ease;
+}
+
+/* INPUT FOCUS EFFECT */
+input:focus,
+select:focus,
+textarea:focus{
+  outline:none;
+  border-color:#38BDF8;
+  box-shadow:0 0 5px rgba(56,189,248,0.5);
+  transform: scale(1.01);
+}
+
+/* CHECKBOX GROUP */
+input[type="checkbox"]{
+  margin-right:6px;
+}
+
+label input[type="checkbox"]{
+  width:auto;
+}
+
+/* SELECT */
+.sel-internship{
+  margin-top:10px;
+}
+
+/* FILE INPUT */
+input[type="file"]{
+  margin-top:10px;
+}
+
+/* TEXTAREA */
+textarea{
+  height:100px;
+  resize:none;
+}
+
+/* SUBMIT BUTTON */
+input[type="submit"]{
+  width:100%;
+  padding:12px;
+  margin-top:20px;
+
+  background-color:#38BDF8;
+  color:#0F172A;
+
+  border:none;
+  border-radius:8px;
+
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+
+  transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER */
+input[type="submit"]:hover{
+  background-color:#0EA5E9;
+  transform: scale(1.03);
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* BUTTON CLICK */
+input[type="submit"]:active{
+  transform: scale(0.98);
+}
+
+/* RESPONSIVE */
+@media (max-width:600px){
+  form{
+    padding:15px;
+  }
+}
