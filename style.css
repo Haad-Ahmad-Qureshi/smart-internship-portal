@@ -172,7 +172,7 @@ header {
   text-decoration: none;
   height: 40px;
   width: 100%;
-  background-color: #38BDF8; /* was green — clashed with the blue theme, now matches explore button */
+  background-color: #38BDF8; 
   color: #0F172A;
   font-weight: 600;
   display: flex;
@@ -215,7 +215,89 @@ footer a:hover {
   text-decoration: underline;
 }
 
+/* =========================
+   MOBILE (max-width: 768px)
+========================= */
+@media (max-width: 768px) {
 
+  /* ===== NAVBAR ===== */
+  .panel1 {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #navbar {
+    flex-wrap: wrap;
+    gap: 15px;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  #navbar a {
+    font-size: 0.9rem;
+  }
+
+  /* ===== HERO ===== */
+  #hero {
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  #hero h1 {
+    font-size: 1.4rem;
+  }
+
+  #hero p {
+    font-size: 0.85rem;
+  }
+
+  #explore-button {
+    width: 150px;
+    height: 40px;
+  }
+
+  /* ===== FEATURED BOXES ===== */
+  .f-s {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 90%;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+
+/* =========================
+   📲 TABLET (769px - 1024px)
+========================= */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+  /* ===== FEATURED BOXES ===== */
+  .box {
+    width: 45%;
+  }
+
+  .f-s {
+    justify-content: center;
+  }
+
+  /* ===== HERO ===== */
+  #hero {
+    height: auto;
+    padding: 50px 30px;
+  }
+
+  #hero h1 {
+    font-size: 1.6rem;
+  }
+}
 
 /* ****************************ABout page styling******* */
 /* ===== ABOUT HERO ===== */
@@ -384,3 +466,107 @@ footer a {
     width: 95%;
   }
 }
+
+/* ------internship page */
+
+.sec1 {
+  background-color: #b2d1f0; 
+  padding: 30px 20px; 
+}
+
+/* Heading Section */
+#avail-intern {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#avail-intern h3 {
+  padding: 12px;
+  background: #1E3A8A;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 6x;
+}
+
+#avail-intern p {
+  color: #334155;
+  margin-top: 10px;
+}
+
+/* Table Styling */
+table {
+  width: 95%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+  color: #334155;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Table Header */
+table th {
+  background-color: #1E293B;
+  color: #F8FAFC;
+  padding: 12px;
+  font-size: 0.95rem;
+}
+
+/* Table Cells */
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #E2E8F0;
+  text-align: center;
+}
+
+/* Hover Effect (smooth now) */
+.intern-row {
+  transition: background-color 0.3s ease;
+}
+
+.intern-row:hover {
+  background-color: #E0F2FE;
+}
+
+/* Apply Button (UNCHANGED COLORS as requested) */
+.apply {
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  padding: 6px 10px;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.apply:hover {
+  background-color: red;
+  border: 1px solid green;
+}
+
+/* Caption */
+caption {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #0F172A;
+}
+
+/* Responsive (mobile) */
+@media (max-width: 768px) {
+  table {
+    width: 100%;
+    font-size: 0.75rem;
+  }
+
+  table th, table td {
+    padding: 8px;
+  }
+
+  .sec1 {
+    padding: 15px;
+  }
+}
+
+
