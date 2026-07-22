@@ -728,3 +728,149 @@ input[type="submit"]:active{
     padding:15px;
   }
 }
+
+/* =========================
+   📩 CONTACT PAGE STYLING
+========================= */
+
+.contact-page .contact-container {
+  padding: 40px 20px;
+  background-color: #b2d1f0;
+}
+
+/* Heading */
+.contact-page .contact-container h2 {
+  text-align: center;
+  color: #0F172A;
+  font-size: 1.8rem;
+}
+
+.contact-page .contact-container > p {
+  text-align: center;
+  color: #334155;
+  margin-bottom: 20px;
+}
+
+/* Contact Info */
+.contact-page .contact-info ul {
+  max-width: 600px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  list-style: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.contact-page .contact-info li {
+  margin: 10px 0;
+  color: #1E293B;
+  font-size: 0.95rem;
+}
+
+/* Map */
+.contact-page .map iframe {
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: 300px;
+  margin: 20px auto;
+  border-radius: 10px;
+  border: none;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.contact-page .map iframe:hover {
+  transform: scale(1.02);
+}
+
+/* FORM */
+.contact-page .contact-form {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 25px;
+
+  background-color: white;
+  border-radius: 12px;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.contact-page .contact-form:hover {
+  transform: translateY(-5px);
+}
+
+/* Form Heading */
+.contact-page .contact-form h4 {
+  margin-bottom: 15px;
+  color: #0F172A;
+  border-bottom: 2px solid #38BDF8;
+  padding-bottom: 5px;
+}
+.contact-info h4{
+ text-align: center;
+}
+/* Labels */
+.contact-page .contact-form label {
+  display: block;
+  margin-top: 10px;
+  color: #1E293B;
+  font-weight: 500;
+}
+
+/* Inputs */
+.contact-page .contact-form input,
+.contact-page .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+
+  border: 1px solid #CBD5E1;
+  border-radius: 6px;
+
+  transition: all 0.3s ease;
+}
+
+/* Focus */
+.contact-page .contact-form input:focus,
+.contact-page .contact-form textarea:focus {
+  outline: none;
+  border-color: #38BDF8;
+  box-shadow: 0 0 5px rgba(56,189,248,0.5);
+}
+
+/* Textarea */
+.contact-page .contact-form textarea {
+  height: 100px;
+  resize: none;
+}
+
+/* Button */
+.contact-page .contact-form input[type="submit"] {
+  margin-top: 15px;
+  background-color: #38BDF8;
+  color: #0F172A;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.contact-page .contact-form input[type="submit"]:hover {
+  background-color: #0EA5E9;
+  transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .contact-page .contact-form {
+    padding: 15px;
+  }
+
+  .contact-page .contact-info ul {
+    padding: 15px;
+  }
+}
