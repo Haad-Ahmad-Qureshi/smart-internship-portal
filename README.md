@@ -1,25 +1,24 @@
-## 🌐 InternHub – Internship Website
+# 🌐 InternHub – Internship Website
 
-InternHub is a simple multi-page website built using **HTML**. It is designed to help students explore internship opportunities and apply easily through an online form.
+InternHub is a multi-page website built using **HTML5 and CSS3**. It is designed to help students explore internship opportunities and apply easily through an online form.
 
 ---
 
 ## 📌 Features
 
-* 🏠 Home page with introduction
-* 📄 About page with mission and services
-* 💼 Internship listings page
+* 🏠 Home page with introduction and featured internships
+* 📄 About page with mission, services, and "why choose us" section
+* 💼 Internship listings page with a styled table
 * 📝 Application form for internships
-* 📞 Contact page with form and Google Map
-* 🔗 Navigation between all pages
+* 📞 Contact page with form and embedded Google Map
+* 🔗 Responsive navigation between all pages (mobile, tablet, desktop)
 
 ---
 
 ## 🛠️ Technologies Used
 
 * HTML5
-
-*(CSS will be added in the next phase)*
+* CSS3 (Flexbox, media queries, transitions)
 
 ---
 
@@ -32,7 +31,7 @@ InternHub/
 │── internship.html
 │── apply.html
 │── contact.html
-│── style.css (coming soon)
+│── style.css
 ```
 
 ---
@@ -50,34 +49,35 @@ InternHub/
 
 This project was created to:
 
-* Practice HTML fundamentals
+* Practice HTML & CSS fundamentals
 * Build a real-world multi-page website
-* Learn forms, navigation, and structure
+* Learn forms, navigation, and responsive layout
 * Prepare for frontend development
 
 ---
 
 ## 🔮 Future Improvements
 
-* Add CSS for styling and layout
-* Make the website responsive
-* Add JavaScript for interactivity
-* Improve UI/UX design
+* Add JavaScript for interactivity (form validation, etc.)
+* Improve UI/UX design further
+* Add backend integration for form submissions
 
 ---
 
-## Deployed link for this website
-Link:https://haad-ahmad-qureshi.github.io/smart-internship-portal/
+## 🌍 Live Demo
+
+🔗 [https://haad-ahmad-qureshi.github.io/smart-internship-portal/](https://haad-ahmad-qureshi.github.io/smart-internship-portal/)
+
+---
 
 ## 👨‍💻 Author
 
 **Haad Ahmad Qureshi**
 📧 Email: [info@internhub.com](mailto:info@internhub.com)
-🔗 LinkedIn: https://www.linkedin.com/in/haad-ahmad-qureshi-09072b356
+🔗 LinkedIn: [linkedin.com/in/haad-ahmad-qureshi-09072b356](https://www.linkedin.com/in/haad-ahmad-qureshi-09072b356)
 
 ---
 
 ## ⭐ Show Your Support
 
 If you like this project, give it a ⭐ on GitHub!
- 
