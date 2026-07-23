@@ -67,6 +67,8 @@ header {
   font-size: 1.05rem; /* toned down from 1.2rem so links don't jump/reflow on hover */
 }
 
+
+
 /* ==============hero */
 #hero {
   padding: 20px 40px;
@@ -237,7 +239,15 @@ footer a:hover {
   #navbar a {
     font-size: 0.9rem;
   }
-
+/* let header grow to fit wrapped navbar content on mobile */
+@media (max-width: 768px) {
+  header {
+    height: auto;
+  }
+}
+#navbar {
+  border-bottom: 1px solid rgba(56, 189, 248, 0.35);
+}
   /* ===== HERO ===== */
   #hero {
     height: auto;
@@ -272,6 +282,7 @@ footer a:hover {
     font-size: 0.8rem;
   }
 }
+
 
 
 /* =========================
